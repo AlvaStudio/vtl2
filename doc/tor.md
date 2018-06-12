@@ -1,7 +1,7 @@
-TOR SUPPORT IN LITECOIN
+TOR SUPPORT IN VITALIUM
 ======================
 
-It is possible to run Litecoin as a Tor hidden service, and connect to such services.
+It is possible to run Vitalium as a Tor hidden service, and connect to such services.
 
 The following directions assume you have a Tor proxy running on port 9050. Many distributions default to having a SOCKS proxy listening on port 9050, but others may not. In particular, the Tor Browser Bundle defaults to listening on port 9150. See [Tor Project FAQ:TBBSocksPort](https://www.torproject.org/docs/faq.html.en#TBBSocksPort) for how to properly
 configure Tor.
@@ -10,7 +10,7 @@ configure Tor.
 1. Run litecoin behind a Tor proxy
 ---------------------------------
 
-The first step is running Litecoin behind a Tor proxy. This will already make all
+The first step is running Vitalium behind a Tor proxy. This will already make all
 outgoing connections be anonymized, but more is possible.
 
 	-proxy=ip:port  Set the proxy server. If SOCKS5 is selected (default), this proxy
@@ -93,26 +93,26 @@ for normal IPv4/IPv6 communication, use:
 
 Starting with Tor version 0.2.7.1 it is possible, through Tor's control socket
 API, to create and destroy 'ephemeral' hidden services programmatically.
-Litecoin Core has been updated to make use of this.
+Vitalium Core has been updated to make use of this.
 
 This means that if Tor is running (and proper authentication has been configured),
-Litecoin Core automatically creates a hidden service to listen on. This will positively 
+Vitalium Core automatically creates a hidden service to listen on. This will positively
 affect the number of available .onion nodes.
 
-This new feature is enabled by default if Litecoin Core is listening (`-listen`), and
+This new feature is enabled by default if Vitalium Core is listening (`-listen`), and
 requires a Tor connection to work. It can be explicitly disabled with `-listenonion=0`
 and, if not disabled, configured using the `-torcontrol` and `-torpassword` settings.
 To show verbose debugging information, pass `-debug=tor`.
 
-Connecting to Tor's control socket API requires one of two authentication methods to be 
-configured. For cookie authentication the user running litecoind must have write access 
-to the `CookieAuthFile` specified in Tor configuration. In some cases this is 
-preconfigured and the creation of a hidden service is automatic. If permission problems 
-are seen with `-debug=tor` they can be resolved by adding both the user running tor and 
-the user running litecoind to the same group and setting permissions appropriately. On 
-Debian-based systems the user running litecoind can be added to the debian-tor group, 
-which has the appropriate permissions. An alternative authentication method is the use 
-of the `-torpassword` flag and a `hash-password` which can be enabled and specified in 
+Connecting to Tor's control socket API requires one of two authentication methods to be
+configured. For cookie authentication the user running litecoind must have write access
+to the `CookieAuthFile` specified in Tor configuration. In some cases this is
+preconfigured and the creation of a hidden service is automatic. If permission problems
+are seen with `-debug=tor` they can be resolved by adding both the user running tor and
+the user running litecoind to the same group and setting permissions appropriately. On
+Debian-based systems the user running litecoind can be added to the debian-tor group,
+which has the appropriate permissions. An alternative authentication method is the use
+of the `-torpassword` flag and a `hash-password` which can be enabled and specified in
 Tor configuration.
 
 4. Privacy recommendations
