@@ -51,10 +51,10 @@ is included in as separate release-notes.  This section describes the Litecoin-s
 
 Protocol:
 - Scrypt Proof-of-Work instead of sha256d, however block hashes are sha256d for performance reasons.
-- Litecoin TCP port 9333 (instead of 8333)
-- RPC TCP port 9332 (instead of 8332)
-- Testnet TCP port 19333 (instead of 18333)
-- Testnet RPC TCP port 19332 (instead of 18332)
+- Litecoin TCP port 2335 (instead of 8333)
+- RPC TCP port 2337 (instead of 8332)
+- Testnet TCP port 12335 (instead of 18333)
+- Testnet RPC TCP port 12337 (instead of 18332)
 - 84 million coin limit  (instead of 21 million)
 - Magic 0xfbc0b6db       (instead of 0xf9beb4d9)
 - Target Block Time 2.5 minutes (instead of 10 minutes)
