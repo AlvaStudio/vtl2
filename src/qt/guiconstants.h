@@ -49,7 +49,7 @@ static const int MAX_URI_LENGTH = 255;
 #define SPINNER_FRAMES 36
 
 #define QAPP_ORG_NAME "Vitalium"
-#define QAPP_ORG_DOMAIN "vitalium.org"
+#define QAPP_ORG_DOMAIN "vitalium.site"
 #define QAPP_APP_NAME_DEFAULT "Vitalium-Qt"
 #define QAPP_APP_NAME_TESTNET "Vitalium-Qt-testnet"
 

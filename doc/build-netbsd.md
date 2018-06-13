@@ -25,7 +25,7 @@ python27
 
 Download the source code:
 ```
-git clone https://github.com/vitalium-project/vitalium
+git clone https://github.com/vitaliylyalin7000/vitalium
 ```
 
 See [dependencies.md](dependencies.md) for a complete overview.

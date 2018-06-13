@@ -1,13 +1,13 @@
 Vitalium Core version 0.16.0 is now available from:
 
-  <https://download.vitalium.org/vitalium-0.16.0/>
+  <https://download.vitalium.site/vitalium-0.16.0/>
 
 This is a new major version release, including new features, various bugfixes
 and performance improvements, as well as updated translations.
 
 Please report bugs using the issue tracker at GitHub:
 
-  <https://github.com/vitalium-project/vitalium/issues>
+  <https://github.com/vitaliylyalin7000/vitalium/issues>
 
 To receive security and update notifications, please subscribe to:
 

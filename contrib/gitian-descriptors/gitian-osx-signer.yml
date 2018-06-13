@@ -7,7 +7,7 @@ architectures:
 packages:
 - "faketime"
 remotes:
-- "url": "https://github.com/vitalium-project/vitalium-detached-sigs.git"
+- "url": "https://github.com/vitaliylyalin7000/vitalium-detached-sigs.git"
   "dir": "signature"
 files:
 - "vitalium-osx-unsigned.tar.gz"

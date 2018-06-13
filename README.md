@@ -3,7 +3,7 @@ Vitalium Core integration/staging tree
 
 [![Build Status](https://travis-ci.org/vitalium-project/vitalium.svg?branch=master)](https://travis-ci.org/vitalium-project/vitalium)
 
-https://vitalium.org
+https://vitalium.site
 
 What is Vitalium?
 ----------------
@@ -15,7 +15,7 @@ out collectively by the network. Vitalium Core is the name of open source
 software which enables the use of this currency.
 
 For more information, as well as an immediately useable, binary version of
-the Vitalium Core software, see [https://vitalium.org](https://vitalium.org).
+the Vitalium Core software, see [https://vitalium.site](https://vitalium.site).
 
 License
 -------
@@ -27,7 +27,7 @@ Development Process
 -------------------
 
 The `master` branch is regularly built and tested, but is not guaranteed to be
-completely stable. [Tags](https://github.com/vitalium-project/vitalium/tags) are created
+completely stable. [Tags](https://github.com/vitaliylyalin7000/vitalium/tags) are created
 regularly to indicate new official, stable release versions of Vitalium Core.
 
 The contribution workflow is described in [CONTRIBUTING.md](CONTRIBUTING.md).

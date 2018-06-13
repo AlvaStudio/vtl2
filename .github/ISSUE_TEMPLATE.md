@@ -2,7 +2,7 @@
 
 General vitalium questions and/or support requests and are best directed to the [vitaliumtalk.io forums](https://vitaliumtalk.io/).
 
-For reporting security issues, please contact the Vitalium developers on the #vitalium-dev Freenode IRC channel or alternatively you can email us at contact@vitalium.org.
+For reporting security issues, please contact the Vitalium developers on the #vitalium-dev Freenode IRC channel or alternatively you can email us at contact@vitalium.site.
 
 If the node is "stuck" during sync or giving "block checksum mismatch" errors, please ensure your hardware is stable by running memtest and observe CPU temperature with a load-test tool such as linpack before creating an issue! -->
 

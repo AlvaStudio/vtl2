@@ -49,7 +49,7 @@ Build Vitalium Core
 
 1. Clone the vitalium source code and cd into `vitalium`
 
-        git clone https://github.com/vitalium-project/vitalium
+        git clone https://github.com/vitaliylyalin7000/vitalium
         cd vitalium
 
 2.  Build vitalium-core:

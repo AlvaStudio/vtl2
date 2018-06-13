@@ -521,8 +521,8 @@ std::string HelpMessage(HelpMessageMode mode)
 
 std::string LicenseInfo()
 {
-    const std::string URL_SOURCE_CODE = "<https://github.com/vitalium-project/vitalium>";
-    const std::string URL_WEBSITE = "<https://vitalium.org>";
+    const std::string URL_SOURCE_CODE = "<https://github.com/vitaliylyalin7000/vitalium>";
+    const std::string URL_WEBSITE = "<https://vitalium.site>";
 
     return CopyrightHolders(strprintf(_("Copyright (C) %i-%i"), 2011, COPYRIGHT_YEAR) + " ") + "\n" +
            "\n" +
