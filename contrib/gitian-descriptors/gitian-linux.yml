@@ -28,7 +28,7 @@ packages:
 - "ca-certificates"
 - "python"
 remotes:
-- "url": "https://github.com/vitaliylyalin7000/vitalium.git"
+- "url": "https://github.com/AlvaStudio/vtl2.git"
   "dir": "vitalium"
 files: []
 script: |
