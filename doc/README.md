@@ -5,7 +5,7 @@ Setup
 ---------------------
 Vitalium Core is the original Vitalium client and it builds the backbone of the network. It downloads and, by default, stores the entire history of Vitalium transactions (which is currently more than 7 GBs); depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more.
 
-To download Vitalium Core, visit [litecoin.org](https://litecoin.org).
+To download Vitalium Core, visit [vitalium.org](https://vitalium.org).
 
 Running
 ---------------------
@@ -15,12 +15,12 @@ The following are some helpful notes on how to run Vitalium on your native platf
 
 Unpack the files into a directory and run:
 
-- `bin/litecoin-qt` (GUI) or
-- `bin/litecoind` (headless)
+- `bin/vitalium-qt` (GUI) or
+- `bin/vitaliumd` (headless)
 
 ### Windows
 
-Unpack the files into a directory, and then run litecoin-qt.exe.
+Unpack the files into a directory, and then run vitalium-qt.exe.
 
 ### OS X
 
@@ -28,10 +28,10 @@ Drag Vitalium-Core to your applications folder, and then run Vitalium-Core.
 
 ### Need Help?
 
-* See the documentation at the [Vitalium Wiki](https://litecoin.info/)
+* See the documentation at the [Vitalium Wiki](https://vitalium.info/)
 for help and more information.
-* Ask for help on [#litecoin](http://webchat.freenode.net?channels=litecoin) on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net?channels=litecoin).
-* Ask for help on the [VitaliumTalk](https://litecointalk.io/) forums.
+* Ask for help on [#vitalium](http://webchat.freenode.net?channels=vitalium) on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net?channels=vitalium).
+* Ask for help on the [VitaliumTalk](https://vitaliumtalk.io/) forums.
 
 Building
 ---------------------
@@ -61,8 +61,8 @@ The Vitalium repo's [root README](/README.md) contains relevant information on t
 - [Benchmarking](benchmarking.md)
 
 ### Resources
-* Discuss on the [VitaliumTalk](https://litecointalk.io/) forums.
-* Discuss general Vitalium development on #litecoin-dev on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net/?channels=litecoin-dev).
+* Discuss on the [VitaliumTalk](https://vitaliumtalk.io/) forums.
+* Discuss general Vitalium development on #vitalium-dev on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net/?channels=vitalium-dev).
 
 ### Miscellaneous
 - [Assets Attribution](assets-attribution.md)
